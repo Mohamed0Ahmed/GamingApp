@@ -3,7 +3,7 @@ import { Ui } from "./ui.module.js";
 
 export class homaData {
    constructor() {
-      this.getGames("shooter");
+      this.getGames("mmorpg");
 
       document.querySelectorAll(".nav-link ").forEach((link) => {
          link.addEventListener("click", (e) => {
