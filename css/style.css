@@ -167,6 +167,12 @@ p {
       max-height: 30vh;
       object-fit: cover;
    }
+   .navbar-toggler {
+      border: none !important ;
+   }
+   .navbar-toggler:focus {
+      box-shadow: none;
+   }
    .navbar {
       margin: auto;
       border-radius: 25px;
@@ -177,7 +183,6 @@ p {
       .navbar {
          width: 75%;
       }
-      
    }
    .nav-link {
       font-size: 12px;
