@@ -218,7 +218,7 @@ p {
       padding: 1px 5px;
       font-size: 12px;
    }
-   .row .col-md-3 {
+   .row .col-md-6 {
       transition: 0.5s;
       cursor: pointer;
    }
@@ -232,10 +232,10 @@ p {
       background-color: rgba(50, 53, 58, 0.5);
       transition: 1s;
    }
-   .row .col-md-3:hover {
+   .row .col-md-6:hover {
       scale: 1.1;
    }
-   .row .col-md-3:hover .card::after {
+   .row .col-md-6:hover .card::after {
       background-color: transparent;
    }
 }
