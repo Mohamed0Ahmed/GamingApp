@@ -15,7 +15,7 @@ export class Ui {
       let htmlbox = ``;
       for (let i = 0; i < data.length; i++) {
          htmlbox += `
-         <div class="col-md-3 position-relative game" id="${data[i].id}">
+         <div class="col-md-3 col-lg-6 position-relative game" id="${data[i].id}">
          <div class="card h-100" style="width: 100%">
             <div class="p-2 img">
                <img
